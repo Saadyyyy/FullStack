@@ -7,14 +7,14 @@ import {
     TouchableOpacity
 } from 'react-native'
 import React from 'react'
-// import Logo from '/src/assets/poster2.png'
+import Logo from '/src/assets/poster2.png'
 import { useNavigation } from '@react-navigation/native'
 
 const RegisterScreen = () => {
     const navigation = useNavigation();
     return (
         <View style={styles.container}>
-            {/* <Image source={Logo} style={styles.logo} /> */}
+            <Image source={Logo} style={styles.logo} />
             <View>
                 <TextInput
                     style={styles.input}

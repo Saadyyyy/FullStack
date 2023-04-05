@@ -16,10 +16,10 @@ const LoginScreen = () => {
 
     return (
         <View style={styles.container}>
-            {/* <Image */}
-                {/* source={Logo}
-                style={styles.logo} */}
-            {/* /> */}
+            <Image 
+                source={Logo}
+                style={styles.logo} 
+            />
             <Text
                 style={{
                     color: '#fff',
