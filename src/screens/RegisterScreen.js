@@ -7,7 +7,7 @@ import {
     TouchableOpacity
 } from 'react-native'
 import React from 'react'
-import Logo from '/src/assets/poster2.png'
+import Logo from '../assets/movie.png'
 import { useNavigation } from '@react-navigation/native'
 
 const RegisterScreen = () => {
